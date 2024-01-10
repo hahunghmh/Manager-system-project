@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77af5617-70eb-4619-9353-486e1d1a46ec" name="Changes" comment="rebuild project structure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/domain/dto/classroom/ClassRoomForUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/data fullopt2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/controller/classroom/ClassAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/controller/classroom/ClassAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/controller/syllabus/SyllabusAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/controller/syllabus/SyllabusAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/domain/dto/syllabus/SyllabusForCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/domain/dto/syllabus/SyllabusForCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/domain/dto/trainingprogram/TrainingForUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/domain/dto/trainingprogram/TrainingForUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/domain/dto/user/UserForCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/domain/dto/user/UserForCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/repository/ClassRoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/repository/ClassRoomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/repository/SyllabusRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/repository/SyllabusRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/ClassRoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/ClassRoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/SyllabusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/SyllabusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/TrainingProgramService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/TrainingProgramService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/template/ClassRoomServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/template/ClassRoomServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/template/SyllabusServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockproject/backend/service/template/SyllabusServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/trigger_duration.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/trigger_duration.sql" afterDir="false" />
+    </list>
+    <list id="e526861a-3f14-48ba-a4bd-d0abfdbe82d9" name="Changes by TrienND" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="com.haulmont.jpb.JpaEntity" />
+        <option value="HTML File" />
+        <option value="com.haulmont.jpb.NewInterface" />
+        <option value="Interface" />
+        <option value="com.haulmont.jpb.NewClass" />
+        <option value="com.haulmont.jpb.JpaRepository" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="features/user-management" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.11/spring-security-core-5.7.11-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2YFkLtiXXO31eZzhF5XHIBSt95d" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SpringAuditingDialog.CreatedByKey&quot;: &quot;true&quot;,
+    &quot;SpringAuditingDialog.CreatedDateKey&quot;: &quot;true&quot;,
+    &quot;SpringAuditingDialog.LastModifiedByKey&quot;: &quot;true&quot;,
+    &quot;SpringAuditingDialog.LastModifiedDateKey&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/0. Mock PJ/Project/BackEnd/src/main/resources/database&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22068965&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.repository&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/TrienND/Desktop/update_training/BackEnd/src/main/java/mockproject/backend/service/TrainingProgramService.java&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;E:/0. Mock PJ/Sumary Group/Nguyen_121223_Syllabus/updateSyllabus/BackEnd/src/main/java/mockproject/backend/service&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\0. Mock PJ\Project\BackEnd\src\main\resources\database" />
+      <recent name="E:\0. Mock PJ\Project\BackEnd\src\main\java\mockproject\backend\service\template" />
+      <recent name="E:\0. Mock PJ\Project\BackEnd\src\main\java\mockproject\backend\utils" />
+      <recent name="E:\0. Mock PJ\Project\BackEnd\src\main\java\mockproject\backend\domain\dto" />
+      <recent name="E:\0. Mock PJ\Project\BackEnd\src\main\java\mockproject\backend\service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\0. Mock PJ\Project\BackEnd\src\main\java\mockproject\backend\controller" />
+      <recent name="E:\0. Mock PJ\Project\BackEnd\src\main\resources" />
+      <recent name="E:\0. Mock PJ\Project\BackEnd\src\main\resources\mail" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mockproject.backend.dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mockproject.backend.domain.dto" />
+      <recent name="mockproject.backend.repository" />
+      <recent name="mockproject.backend.service.template" />
+      <recent name="mockproject.backend.service" />
+      <recent name="mockproject.backend.controller.syllabus" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackEndApplication">
+    <configuration name="PasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mockproject.backend.utils.tools.PasswordGenerator" />
+      <module name="BackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockproject.backend.utils.constant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermissionExtraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mockproject.backend.utils.tools.PermissionExtraction" />
+      <module name="BackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockproject.backend.utils.constant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermissionPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mockproject.backend.utils.tools.PermissionPackage" />
+      <module name="BackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockproject.backend.utils.constant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickTestJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mockproject.backend.QuickTestJava" />
+      <module name="BackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockproject.backend.utils.constant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="HIDE_BANNER" value="true" />
+      <module name="BackEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mockproject.backend.BackEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuickTestJava" />
+        <item itemvalue="Application.PermissionPackage" />
+        <item itemvalue="Application.PermissionExtraction" />
+        <item itemvalue="Application.PasswordGenerator" />
+        <item itemvalue="Application.PasswordGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77af5617-70eb-4619-9353-486e1d1a46ec" name="Changes" comment="" />
+      <created>1700128663684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700128663684</updated>
+      <workItem from="1700128665009" duration="1364000" />
+      <workItem from="1700138796810" duration="7848000" />
+      <workItem from="1700180518288" duration="1997000" />
+      <workItem from="1700183096848" duration="16339000" />
+      <workItem from="1700228740536" duration="878000" />
+      <workItem from="1700229627956" duration="7631000" />
+      <workItem from="1700270090141" duration="27501000" />
+      <workItem from="1700362621269" duration="17798000" />
+      <workItem from="1700384973305" duration="8531000" />
+      <workItem from="1700395869883" duration="6091000" />
+      <workItem from="1700409181390" duration="1224000" />
+      <workItem from="1700443590404" duration="24478000" />
+      <workItem from="1700482734038" duration="5468000" />
+      <workItem from="1700493260567" duration="5681000" />
+      <workItem from="1700533699023" duration="7067000" />
+      <workItem from="1700544732244" duration="7594000" />
+      <workItem from="1700570752452" duration="9150000" />
+      <workItem from="1700580934919" duration="4837000" />
+      <workItem from="1700612003524" duration="3038000" />
+      <workItem from="1700615687372" duration="9070000" />
+      <workItem from="1700628588084" duration="739000" />
+      <workItem from="1700636596883" duration="12026000" />
+      <workItem from="1700699756644" duration="1851000" />
+      <workItem from="1700703287867" duration="18275000" />
+      <workItem from="1700743101695" duration="2431000" />
+      <workItem from="1700755282327" duration="1672000" />
+      <workItem from="1700784591384" duration="2354000" />
+      <workItem from="1700789930327" duration="983000" />
+      <workItem from="1700791714184" duration="16787000" />
+      <workItem from="1700828749596" duration="1612000" />
+      <workItem from="1700830560216" duration="1958000" />
+      <workItem from="1700873550086" duration="2287000" />
+      <workItem from="1700877430788" duration="25865000" />
+      <workItem from="1700927489602" duration="2830000" />
+      <workItem from="1700987354415" duration="4630000" />
+      <workItem from="1700998030691" duration="10566000" />
+      <workItem from="1701010966556" duration="5234000" />
+      <workItem from="1701043896528" duration="1845000" />
+      <workItem from="1701045796133" duration="840000" />
+      <workItem from="1701050179414" duration="4027000" />
+      <workItem from="1701057191135" duration="11045000" />
+      <workItem from="1701099028460" duration="3171000" />
+      <workItem from="1701130432698" duration="345000" />
+      <workItem from="1701133439087" duration="9062000" />
+      <workItem from="1701183802317" duration="3795000" />
+      <workItem from="1701220321240" duration="1210000" />
+      <workItem from="1701232630829" duration="18499000" />
+      <workItem from="1701308791404" duration="12289000" />
+      <workItem from="1701349388980" duration="8875000" />
+      <workItem from="1701395228909" duration="2727000" />
+      <workItem from="1701419938033" duration="1938000" />
+      <workItem from="1701484565450" duration="3043000" />
+      <workItem from="1701617199030" duration="4952000" />
+      <workItem from="1701652262250" duration="4062000" />
+      <workItem from="1701668897177" duration="7858000" />
+      <workItem from="1701739546816" duration="17269000" />
+      <workItem from="1701825803670" duration="4865000" />
+      <workItem from="1701835639038" duration="9086000" />
+      <workItem from="1701846165425" duration="121000" />
+      <workItem from="1701847652410" duration="2481000" />
+      <workItem from="1701868947787" duration="4254000" />
+      <workItem from="1701873714986" duration="20642000" />
+      <workItem from="1701963371000" duration="1677000" />
+      <workItem from="1701999785061" duration="3564000" />
+      <workItem from="1702003446970" duration="772000" />
+      <workItem from="1702006049684" duration="3084000" />
+      <workItem from="1702036275024" duration="4797000" />
+      <workItem from="1702042828832" duration="1175000" />
+      <workItem from="1702111162527" duration="1558000" />
+      <workItem from="1702190760176" duration="3873000" />
+      <workItem from="1702197927490" duration="8492000" />
+      <workItem from="1702257805607" duration="15324000" />
+      <workItem from="1702283245276" duration="8359000" />
+      <workItem from="1702308876079" duration="3311000" />
+      <workItem from="1702343781393" duration="20595000" />
+      <workItem from="1702398166149" duration="1859000" />
+      <workItem from="1702426783230" duration="658000" />
+      <workItem from="1702429654150" duration="4422000" />
+      <workItem from="1702434883580" duration="11141000" />
+      <workItem from="1702451421730" duration="11994000" />
+      <workItem from="1702476366833" duration="707000" />
+      <workItem from="1702481414533" duration="4126000" />
+      <workItem from="1702524542432" duration="605000" />
+      <workItem from="1702545362220" duration="12404000" />
+      <workItem from="1702567449285" duration="2530000" />
+      <workItem from="1702601320894" duration="745000" />
+    </task>
+    <task id="LOCAL-00001" summary="build project structure">
+      <option name="closed" value="true" />
+      <created>1700146961938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700146961938</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rebuild project structure&#10;- add new features: user API: management, login, forgot">
+      <option name="closed" value="true" />
+      <created>1700704079069</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700704079069</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rebuild project structure&#10;- add new features: Training management, syllabus management">
+      <option name="closed" value="true" />
+      <created>1702042881942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702042881942</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rebuild project structure">
+      <option name="closed" value="true" />
+      <created>1702476784607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702476784607</updated>
+    </task>
+    <task id="LOCAL-00005" summary="rebuild project structure">
+      <option name="closed" value="true" />
+      <created>1702485755258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702485755258</updated>
+    </task>
+    <task id="LOCAL-00006" summary="rebuild project structure">
+      <option name="closed" value="true" />
+      <created>1702485925088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702485925088</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="build project structure" />
+    <MESSAGE value="rebuild project structure&#10;- add new features: user API: management, login, forgot" />
+    <MESSAGE value="rebuild project structure&#10;- add new features: Training management, syllabus management" />
+    <MESSAGE value="rebuild project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebuild project structure" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mockproject/backend/utils/tools/PermissionPackage.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mockproject/backend/service/TrainingProgramService.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mockproject/backend/controller/TestAPI.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mockproject/backend/service/UserLoginService.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mockproject/backend/service/ClassRoomService.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mockproject/backend/controller/classroom/ClassAPI.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mockproject/backend/service/ClassRoomService.java</url>
+          <line>288</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="OracleBreakpointType">
+          <url>dbSrc:///e1132f7/2b30f7e3-b98f-4676-82a8-16922da9e338/schema/fams/table/training_content/trigger/update_syllabus_duration.sql</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="mockproject.backend.entity.Role$HibernateProxy$gYyy5y6g" memberName="$$_hibernate_interceptor" />
+        <PinnedItemInfo parentTag="mockproject.backend.domain.entity.Role$HibernateProxy$PBy5RUtE" memberName="role" />
+        <PinnedItemInfo parentTag="org.springframework.data.domain.PageImpl" memberName="content" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

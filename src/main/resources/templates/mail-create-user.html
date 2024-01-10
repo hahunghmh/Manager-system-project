@@ -1,0 +1,14 @@
+5<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<body>
+<p>Hi, <span th:text="${user.name}"></span></p>
+<p> Tài khoản đăng nhập vào hệ thống FAMS của bạn đã được tạo thành công.</p>
+<p>Vui lòng truy cập hệ thống theo thông tin sau:</p>
+<ul>
+	<li> Username: <span th:text="${user.email}"></span></li>
+	<li> Password: <span th:text="${user.password}"></span></li>
+</ul>
+<p><strong>Lưu ý: </strong> <i>Vui lòng thay đổi mật khẩu sau khi đăng nhập</i></p>
+
+</body>
+</html>

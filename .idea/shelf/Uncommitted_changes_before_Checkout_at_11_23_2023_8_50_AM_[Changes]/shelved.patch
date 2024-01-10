@@ -1,0 +1,17 @@
+Index: src/main/resources/templates/mail-reset-password.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html xmlns:th=\"http://www.thymeleaf.org\" lang=\"en\">\r\n<body>\r\n<p>Hi, <span th:text=\"${user.name}\"></span></p>\r\n<p> Tài khoản đăng nhập vào hệ thống FAMS của bạn đã yêu cầu cấp lại password.</p>\r\n<p>Vui lòng truy cập đường dẫn sau để được cấp lại mật khẩu mới:\r\n\t<a th:href=\"${create_new_pass}\"> Renew password</a></span>\r\n<p>Expire at: <span th:value=\"${expire}\"></span></p>\r\n<p> Nếu bạn không yêu cầu cấp lại mật khẩu, vui lòng bỏ qua...</p>\r\n\r\n\r\n<p><strong>Lưu ý: </strong> <i>Vui lòng thay đổi mật khẩu sau khi đăng nhập</i></p>\r\n\r\n</body>\r\n</html>
+===================================================================
+diff --git a/src/main/resources/templates/mail-reset-password.html b/src/main/resources/templates/mail-reset-password.html
+--- a/src/main/resources/templates/mail-reset-password.html	
++++ b/src/main/resources/templates/mail-reset-password.html	
+@@ -4,7 +4,7 @@
+ <p>Hi, <span th:text="${user.name}"></span></p>
+ <p> Tài khoản đăng nhập vào hệ thống FAMS của bạn đã yêu cầu cấp lại password.</p>
+ <p>Vui lòng truy cập đường dẫn sau để được cấp lại mật khẩu mới:
+-	<a th:href="${create_new_pass}"> Renew password</a></span>
++	<a th:href="${create_new_pass}"> Renew password</a></p>
+ <p>Expire at: <span th:value="${expire}"></span></p>
+ <p> Nếu bạn không yêu cầu cấp lại mật khẩu, vui lòng bỏ qua...</p>
+ 
